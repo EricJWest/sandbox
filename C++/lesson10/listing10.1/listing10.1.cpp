@@ -1,4 +1,4 @@
-/* Listing 10.1
+/* Listing 10.1: Example of a Simple Inheritance Hierarchy
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

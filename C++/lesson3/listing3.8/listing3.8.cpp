@@ -1,4 +1,4 @@
-/* Listing 3.8
+/* Listing 3.8: Using 'constexpr' to Calculate Pi
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

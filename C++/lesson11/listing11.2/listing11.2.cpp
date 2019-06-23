@@ -1,4 +1,4 @@
-/* Listing 11.2
+/* Listing 11.2: Demonstrating Virtual Functions Using the 'virtual' Keyword
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -17,8 +17,7 @@ public:
 class Tuna: public Fish
 {
 public:
-   // override Fish::Swim
-   void Swim()
+   void Swim() // overrides Fish::Swim
    {
       cout << "Tuna swims!" << endl;
    }
@@ -27,8 +26,7 @@ public:
 class Carp: public Fish
 {
 public:
-   // override Fish::Swim
-   void Swim()
+   void Swim() // override Fish::Swim
    {
       cout << "Carp swims!" << endl;
    }
@@ -44,12 +42,11 @@ int main()
 {
    Tuna myDinner;
    Carp myLunch;
+   Fish myBreakfast;
 
-   // sending Tuna as Fish
-   MakeFishSwim(myDinner);
-
-   // sending Carp as Fish
-   MakeFishSwim(myLunch);
+   MakeFishSwim(myDinner); // invokes Tuna::Swim()
+   MakeFishSwim(myLunch); // invokes Carp::Swim()
+   MakeFishSwim(myBreakfast); // invokes Fish::Swim()
 
    return 0;
 }

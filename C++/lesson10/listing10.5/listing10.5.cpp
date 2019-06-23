@@ -1,4 +1,4 @@
-/* Listing 10.5
+/* Listing 10.5: Ivoking Methods of a Base Class in a Derived Class
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -28,7 +28,7 @@ class Tuna: public Fish
 public:
    Tuna(): Fish(false){} // constructor initializes base
 
-   void Swim()
+   void Swim() // overriding Fish::Swim()
    {
       cout << "Tuna swims real fast" << endl;
    }
@@ -37,12 +37,12 @@ public:
 class Carp: public Fish
 {
 public:
-   Carp(): Fish(true){}
+   Carp(): Fish(true){} // constructor initializes base
 
-   void Swim()
+   void Swim() // overriding Fish::Swim()
    {
       cout << "Carp swims real slow" << endl;
-      Fish::Swim();
+      Fish::Swim(); // invoking Swim() from class Fish
    }
 };
 
@@ -57,7 +57,8 @@ int main()
    myLunch.Swim();
 
    cout << "Dinner: ";
-   myDinner.Fish::Swim();
+   myDinner.Swim(); // invoking Swim() from class Tuna
+   myDinner.Fish::Swim(); // invoking Swim() from class Fish
 
    return 0;
 }

@@ -1,4 +1,4 @@
-/* Listing 6.14
+/* Listing 6.14: Demonstrating the Use of Nested Loops
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

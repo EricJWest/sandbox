@@ -1,4 +1,4 @@
-/* Listing 7.8
+/* Listing 7.8: A Function That Takes an Array as a Parameter
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

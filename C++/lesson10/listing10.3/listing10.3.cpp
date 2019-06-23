@@ -1,4 +1,4 @@
-/* Listing 10.3
+/* Listing 10.3: Derived Class Constructor with Initialized Lists
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -32,7 +32,7 @@ public:
 class Carp: public Fish
 {
 public:
-   Carp(): Fish(true){}
+   Carp(): Fish(true){} // constructor initializes base
 };
 
 int main()

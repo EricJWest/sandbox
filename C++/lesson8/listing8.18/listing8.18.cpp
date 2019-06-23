@@ -1,4 +1,4 @@
-/* Listing 8.18
+/* Listing 8.18: Demonstrating the Use of References in a Function
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

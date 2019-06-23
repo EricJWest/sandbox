@@ -1,4 +1,4 @@
-/* Listing 9.13
+/* Listing 9.13: Demonstrating the Use of 'sizeof' on Classes and Objects
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

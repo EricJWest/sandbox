@@ -1,4 +1,4 @@
-/* Listing 9.16
+/* Listing 9.16: Examples of Unions
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

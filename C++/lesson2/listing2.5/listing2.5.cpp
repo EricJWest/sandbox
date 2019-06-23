@@ -1,11 +1,11 @@
-/* Listing 2.5
+/* Listing 2.5: Using the Return Value of a Function
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
 #include <iostream>
 using namespace std;
 
-//Declare and definte a function
+// Function declaration and definition
 int DemoConsoleOutput()
 {
     cout << "This is a simple string literal" << endl;
@@ -19,6 +19,6 @@ int DemoConsoleOutput()
 
 int main()
 {
-    // Call the function
+    // Function call with return used to exit
     return DemoConsoleOutput();
 }

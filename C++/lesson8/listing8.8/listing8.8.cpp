@@ -1,4 +1,4 @@
-/* Listing 8.8
+/* Listing 8.8: Accessing Memory Allocated Using 'new[..]' and Releasing It Using 'delete[]'
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 7.4
+/* Listing 7.4: A Function With an Optional Parameter
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

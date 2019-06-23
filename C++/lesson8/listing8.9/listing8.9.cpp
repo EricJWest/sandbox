@@ -1,4 +1,4 @@
-/* Listing 8.9
+/* Listing 8.9: Demonstrating the Effect of Incrementing and Decrementing Pointers
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

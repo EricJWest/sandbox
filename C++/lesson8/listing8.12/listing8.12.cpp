@@ -1,4 +1,4 @@
-/* Listing 8.12
+/* Listing 8.12: Accessing Elements in an Array Using * Versus []
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -12,7 +12,7 @@ int main()
    // Static array of 5 integers
    int myNumbers[ARRAY_LEN] = {24, -1, 365, -999, 2011};
 
-   // pointer initialized to first element in array
+   // Pointer initialized to first element in array
    int* pointToNums = myNumbers;
 
    cout << "Display elements using array with pointer syntax, operator *" << endl;

@@ -1,4 +1,4 @@
-/* Listing 3.1
+/* Listing 3.1: Using Variables to Store Numbers and the Result of Their Multiplication
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

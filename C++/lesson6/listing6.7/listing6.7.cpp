@@ -1,4 +1,4 @@
-/* Listing 6.7
+/* Listing 6.7: Demonstrating the Use of 'goto'
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

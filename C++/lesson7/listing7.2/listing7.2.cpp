@@ -1,4 +1,4 @@
-/* Listing 7.2
+/* Listing 7.2: A Function With Two Parameters
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

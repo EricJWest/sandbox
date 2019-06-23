@@ -1,4 +1,4 @@
-/* Listing 6.2
+/* Listing 6.2: Check for Bounds Before Copying a String into a 'char' Array (cf. Listing 4.6)
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -13,8 +13,8 @@ int main()
    string userInput;
    getline (cin, userInput);
 
-   char copyInput[20] = {'\0'};
-   if (userInput.length() < 20) // check bounds
+   char copyInput[20] = {'\0'}; // 20 character limit array
+   if (userInput.length() < 20) // check length of userInput
    {
       strcpy(copyInput, userInput.c_str());
       cout << "copyInput contains: " << copyInput << endl;

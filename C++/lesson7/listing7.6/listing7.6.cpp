@@ -1,4 +1,4 @@
-/* Listing 7.6
+/* Listing 7.6: A Function With Multiple Return Statements
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

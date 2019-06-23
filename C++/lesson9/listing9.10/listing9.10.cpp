@@ -1,4 +1,4 @@
-/* Listing 9.10
+/* Listing 9.10: Example of a Singleton Class
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -11,7 +11,7 @@ class President
 private:
    President() {}; // private default constructor
    President(const President&); // private copy constructor
-   const President& operator=(const President&); // assignment operator
+   const President& operator=(const President&); // private assignment operator
 
    string name;
 
@@ -40,10 +40,10 @@ int main()
    onlyPresident.SetName("Abraham Lincoln");
 
    // uncomment lines to see how failures prohibit duplicates
-   // President second; // cannot access constructor
-   // President* third = new President(); // cannot access constructor
-   // Presdient fourth = onlyPresident; // cannot access copy constructor
-   // onlyPresident = President::GetINstance(); // cannot access operator=
+   // President second; // cannot access default constructor (compiler error)
+   // President* third = new President(); // cannot access default constructor (compiler error)
+   // Presdient fourth = onlyPresident; // cannot access copy constructor (compiler error)
+   // onlyPresident = President::GetINstance(); // cannot access operator= (compiler error)
 
    cout << "The name of the President is: ";
    cout << President::GetInstance().GetName() << endl;

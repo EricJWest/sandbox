@@ -1,4 +1,4 @@
-/* Listing 5.1
+/* Listing 5.1: Demonstrating the Use of Arithmetic Operators on Integers
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

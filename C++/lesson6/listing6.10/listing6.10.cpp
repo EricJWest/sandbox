@@ -1,4 +1,4 @@
-/* Listing 6.10
+/* Listing 6.10: Demonstrating the Use of a 'for' Loop
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

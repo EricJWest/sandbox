@@ -1,4 +1,4 @@
-/* Listing 10.8
+/* Listing 10.8: An Example of Private Inheritance
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -39,7 +39,7 @@ int main()
 {
    Car myDreamCar;
    myDreamCar.Move();
-   //myDreamCar.PumpFuel(); // failure: cannot access base's public member
+   // myDreamCar.PumpFuel(); // compiler error: cannot access base's public member
 
    return 0;
 }

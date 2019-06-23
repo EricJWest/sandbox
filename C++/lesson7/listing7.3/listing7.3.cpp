@@ -1,4 +1,4 @@
-/* Listing 7.3
+/* Listing 7.3: A Function With No Parameters and No Return Values
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -16,4 +16,5 @@ int main()
 void SayHello()
 {
    cout << "Hello World!" << endl;
+   return; // symbolic empty return (optional)
 }

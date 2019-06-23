@@ -1,4 +1,4 @@
-/* Listing 7.11
+/* Listing 7.11: Using 'auto' as Return Type for a Function
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

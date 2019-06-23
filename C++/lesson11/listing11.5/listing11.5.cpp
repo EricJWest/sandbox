@@ -1,11 +1,11 @@
-/* Listing 11.5
+/* Listing 11.5: Demonstrating the Presence of a Hidden VFT Pointer
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
 #include <iostream>
 using namespace std;
 
-class SimpleClass
+class SimpleClass // base class without VFT
 {
    int a, b;
 
@@ -13,12 +13,12 @@ public:
    void DoSomething() {}
 };
 
-class Base
+class Base // base class with hidden VFT
 {
    int a, b;
 
 public:
-   virtual void DoSomething() {}
+   virtual void DoSomething() {} // virtual function
 };
 
 int main()

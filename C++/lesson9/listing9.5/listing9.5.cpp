@@ -1,4 +1,4 @@
-/* Listing 9.5
+/* Listing 9.5: A Class with an Overloaded Constructor and No Default Constructor
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

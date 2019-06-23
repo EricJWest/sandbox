@@ -1,4 +1,4 @@
-/* Listing 4.3
+/* Listing 4.3: Accessing Elements in a Multidimensional Array
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

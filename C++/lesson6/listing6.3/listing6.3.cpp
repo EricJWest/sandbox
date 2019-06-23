@@ -1,4 +1,4 @@
-/* Listing 6.3
+/* Listing 6.3: Using Nested 'if' Statements in Multiplying or Dividing a Number
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

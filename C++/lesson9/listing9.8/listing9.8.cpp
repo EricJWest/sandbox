@@ -1,4 +1,4 @@
-/* Listing 9.8
+/* Listing 9.8: Demonstrating the Dangers of Shallow Copying
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -15,6 +15,7 @@ public:
    MyString(const char* initString) // constructor
    {
       buffer = NULL;
+      cout << "Default constructor: creating new MyString" << endl;
       if(initString != NULL)
       {
          buffer = new char [strlen(initString) + 1];
@@ -24,8 +25,9 @@ public:
 
    ~MyString() // destructor
    {
-      cout << "Invoking destructor, clearing up" << endl;
-      delete[] buffer;
+      cout << "Invoking destructor, cleaning up..." << endl;
+      if (buffer != NULL);
+         delete[] buffer;
    }
 
    int GetLength()
@@ -51,7 +53,7 @@ void UseMyString(MyString str)
 int main()
 {
    MyString sayHello("Hello from String Class");
-   UseMyString(sayHello);
+   UseMyString(sayHello); // destruction of shallow copy, invalidating sayHello
 
-   return 0;
+   return 0; // destructor tries to delete invalidated pointer (runtime error, crash)
 }

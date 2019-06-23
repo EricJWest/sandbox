@@ -1,4 +1,4 @@
-/* Listing 3.9
+/* Listing 3.9: Using Enumerated Values to Indicate Cardinal Wind Directions
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

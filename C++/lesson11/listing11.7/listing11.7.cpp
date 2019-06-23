@@ -1,4 +1,4 @@
-/* Listing 11.7
+/* Listing 11.7: Demonstration of the Diamond Problem
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -19,14 +19,29 @@ public:
 
 class Mammal: public Animal
 {
+public:
+   Mammal()
+   {
+      cout << "Mammal constructor" << endl;
+   }
 };
 
 class Bird: public Animal
 {
+public:
+   Bird()
+   {
+      cout << "Bird constructor" << endl;
+   }
 };
 
 class Reptile: public Animal
 {
+public:
+   Reptile()
+   {
+      cout << "Reptile constructor" << endl;
+   }
 };
 
 class Platypus: public Mammal, public Bird, public Reptile

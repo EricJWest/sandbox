@@ -1,4 +1,4 @@
-/* Listing 4.6
+/* Listing 4.6: A Risky Application Using C-style Strings and User Input
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

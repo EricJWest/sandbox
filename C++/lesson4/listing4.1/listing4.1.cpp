@@ -1,4 +1,4 @@
-/* Listing 4.1
+/* Listing 4.1: Declaring an Array of Integers and Accessing Its Elements
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

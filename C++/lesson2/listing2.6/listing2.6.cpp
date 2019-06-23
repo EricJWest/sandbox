@@ -1,4 +1,4 @@
-/* Listing 2.6
+/* Listing 2.6: Use 'cin' and 'cout' to Display Number and Text Input by User
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

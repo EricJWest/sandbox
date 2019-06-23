@@ -1,4 +1,4 @@
-/* Listing 7.1
+/* Listing 7.1: Demonstrating the Use of Functions
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

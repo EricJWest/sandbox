@@ -1,4 +1,4 @@
-/* Listing 3.7
+/* Listing 3.7: Declaring a Constant Called 'pi'
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

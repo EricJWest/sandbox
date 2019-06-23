@@ -1,4 +1,4 @@
-    /* Listing 9.17
+    /* Listing 9.17: Demonstrating Aggregate Initialization of Class Types
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

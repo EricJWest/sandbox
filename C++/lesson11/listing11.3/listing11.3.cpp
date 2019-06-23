@@ -1,4 +1,4 @@
-/* Listing 11.3
+/* Listing 11.3: Demonstrating the Need for Virtual Destructors
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -43,11 +43,12 @@ int main()
    cout << "Allocating a Tuna on the free store: " << endl;
    Tuna* pTuna = new Tuna;
    cout << "Deleting the Tuna: " << endl;
-   DeleteFishMemory(pTuna);
+   DeleteFishMemory(pTuna); // BAD: only deletes instance of Fish, not Tuna! (memory leakage!!!)
 
    cout << "Instantiating a Tuna on the stack: " << endl;
    Tuna myDinner;
    cout << "Automatic destruction as it goes out of scope: " << endl;
+   // OK! both Fish and Tuna are destroyed
 
    return 0;
 }

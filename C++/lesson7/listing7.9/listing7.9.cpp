@@ -1,4 +1,4 @@
-/* Listing 7.9
+/* Listing 7.9: Function Output Using a Reference Parameter Rather Than a Return Value
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 6.11
+/* Listing 6.11: Demonstrating the Use of a 'for' Loop Omitting the Loop Expression
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

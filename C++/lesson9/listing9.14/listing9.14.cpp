@@ -1,4 +1,4 @@
-/* Listing 9.14
+/* Listing 9.14: Using Keyword 'friend' to Allow External Functions Access to Private Data
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

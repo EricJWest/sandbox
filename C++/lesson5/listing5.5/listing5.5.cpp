@@ -1,4 +1,4 @@
-/* Listing 5.5
+/* Listing 5.5: Using Logical NOT (!) and Logical AND (&&) Operators in 'if' Statments for Conditional Processing
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

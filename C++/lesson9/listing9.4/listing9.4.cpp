@@ -1,4 +1,4 @@
-/* Listing 9.4
+/* Listing 9.4: A Class with Multiple Constructors
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -19,7 +19,7 @@ public:
       cout << "Default constructor: name and age not set" << endl;
    }
 
-   Human(string humansName, int humansAge) // overloaded
+   Human(string humansName, int humansAge) // overloaded constructor
    {
       name = humansName;
       age = humansAge;

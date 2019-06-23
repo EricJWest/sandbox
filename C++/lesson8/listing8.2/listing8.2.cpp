@@ -1,4 +1,4 @@
-/* Listing 8.2
+/* Listing 8.2: Demonstrating the Declaration and Initialization of a Pointer
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -11,8 +11,7 @@ int main()
    int* pointsToInt = &age; // pointer initialized to &age
 
    // Displaying the value of pointer
-   //cout << "Integer age is located at: 0x" << hex << pointsToInt << endl;
-   cout << "Integer age is located at: " << pointsToInt << endl;
+   cout << "Integer age is located at: " << hex << pointsToInt << endl;
 
    return 0;
 }

@@ -1,4 +1,4 @@
-/* Listing 6.4
+/* Listing 6.4: Using a Grouped 'if...else' Construct
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

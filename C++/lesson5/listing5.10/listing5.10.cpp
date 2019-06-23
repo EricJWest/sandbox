@@ -1,4 +1,4 @@
-/* Listing 5.10
+/* Listing 5.10: Demonstrating the Use of the 'sizeof' Operator
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 11.9
+/* Listing 11.9: Using of a 'clone' Function as a Simulated Virtual Copy Constructor
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -9,8 +9,8 @@ class Fish
 {
 public:
    virtual Fish* Clone() = 0;
-   virtual void Swim() = 0;
-   virtual ~Fish() {};
+   virtual void Swim() = 0; // pure virtual function
+   virtual ~Fish() {}; // virtual destructor
 
 };
 
@@ -22,7 +22,7 @@ public:
       return new Tuna(*this);
    }
 
-   void Swim() override final
+   void Swim() override final // overrides Fish::Swim()
    {
       cout << "Tuna swims fast in the sea! " << endl;
    }
@@ -46,7 +46,7 @@ class Carp final: public Fish
       return new Carp(*this);
    }
 
-   void Swim() override final
+   void Swim() override final // overrides Fish::Swim()
    {
       cout << "Carp swims slow in the lake! " << endl;
    }

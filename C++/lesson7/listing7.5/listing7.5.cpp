@@ -1,4 +1,4 @@
-/* Listing 7.5
+/* Listing 7.5: Using a Recursive Function to Calculate Fibonacci Numbers
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 5.9
+/* Listing 5.9: Demonstrating the Use of Compound Assignment Operators
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -11,18 +11,12 @@ int main()
    int value = 0;
    cin >> value;
 
-   value += 8;
-   cout << "After += 8, value = " << value << endl;
-   value -= 2;
-   cout << "After -= 2, value = " << value << endl;
-   value /= 4;
-   cout << "After /= 4, value = " << value << endl;
-   value *= 4;
-   cout << "After *= 4, value = " << value << endl;
-   value %= 1000;
-   cout << "After %= 1000, value = " << value << endl;
-
-   // Note: henceforth assignment happens within cout
+   cout << "Start, value = " << value << endl;
+   cout << "After += 8, value = " << (value += 8) << endl;
+   cout << "After -= 2, value = " << (value -= 2) << endl;
+   cout << "After /= 4, value = " << (value /= 4) << endl;
+   cout << "After *= 4, value = " << (value *= 4) << endl;
+   cout << "After %= 1000, value = " << (value %= 1000) << endl;
    cout << "After <<= 1, value = " << (value <<= 1) << endl;
    cout << "After >>= 2, value = " << (value >>= 2) << endl;
    cout << "After |= 0x55, value = " << (value |= 0x55) << endl;

@@ -1,21 +1,21 @@
-/* Listing 11.6
+/* Listing 11.6: An Example of an Abstract Base Class
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
 #include <iostream>
 using namespace std;
 
-class Fish
+class Fish // abstract base class
 {
 public:
-   // define a pure virtual function Swim
-   virtual void Swim() = 0;
+   virtual void Swim() = 0; // pure virtual function, Swim()
+
 };
 
 class Tuna: public Fish
 {
 public:
-   void Swim()
+   void Swim() // required implementation of Swim()
    {
       cout << "Tuna swims fast in the sea! " << endl;
    }
@@ -24,7 +24,7 @@ public:
 class Carp: public Fish
 {
 public:
-   void Swim()
+   void Swim() // required implementation of Swim()
    {
       cout << "Carp swims slow in the lake! " << endl;
    }
@@ -37,12 +37,15 @@ void MakeFishSwim(Fish& inputFish)
 
 int main()
 {
-   // Fish myFish; // failure: cannot instantiate an ABC
+   // Fish myFish; // compiler error: cannot instantiate an abstract base class
    Carp myLunch;
    Tuna myDinner;
 
-   MakeFishSwim(myLunch);
-   MakeFishSwim(myDinner);
+   myLunch.Swim(); // invokes Carp::Swim() directly
+   myDinner.Swim(); // invokes Tuna::Swim() directly
+
+   MakeFishSwim(myLunch); // invokes Carp::Swim()
+   MakeFishSwim(myDinner); // invokes Tuna::Swim()
 
    return 0;
 }

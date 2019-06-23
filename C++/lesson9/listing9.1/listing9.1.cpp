@@ -1,4 +1,4 @@
-/* Listing 9.1
+/* Listing 9.1: Introduction to Classes and Objects
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

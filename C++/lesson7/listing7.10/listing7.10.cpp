@@ -1,4 +1,4 @@
-/* Listing 7.10
+/* Listing 7.10: An Inline Function
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 6.6
+/* Listing 6.6: Demonstrating the Use of the Conditional Operator (?:)
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -12,7 +12,7 @@ int main()
    cin >> num1;
    cin >> num2;
 
-   int max = (num1 > num2) ? num1 : num2;
+   int max = (num1 > num2) ? num1 : num2; // select max of the two numbers
    cout << "The greater of " << num1 << " and " \
       << num2 << " is: " << max << endl;
 

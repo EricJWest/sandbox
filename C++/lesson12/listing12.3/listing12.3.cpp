@@ -1,4 +1,4 @@
-/* Listing 12.3
+/* Listing 12.3: Demonstrating the Use of Smart Pointer 'unique_ptr'
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -10,7 +10,6 @@ class Date
 {
 private:
    int day, month, year;
-   string dateInString;
 
 public:
    Date(int inMonth, int inDay, int inYear)
@@ -30,9 +29,8 @@ int main()
    cout << "Integer value is: " << *smartIntPtr << endl;
 
    unique_ptr<Date> smartHoliday (new Date(12, 25, 2016));
-   cout << "The new instance of date contains: ";
-
    // use smartHoliday just as you would a Date*
+   cout << "The new instance of date contains: ";
    smartHoliday->DisplayDate();
 
    return 0;

@@ -1,4 +1,4 @@
-/* Listing 5.2
+/* Listing 5.2: Demonstrate the Difference Between Postfix and Prefix Operators
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

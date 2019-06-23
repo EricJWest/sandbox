@@ -1,4 +1,4 @@
-/* Listing 10.7
+/* Listing 10.7: Demonstrating the Order of Construction and Destruction of Base and Derived Classes
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -8,12 +8,12 @@ using namespace std;
 class FishDummyMember
 {
 public:
-   FishDummyMember()
+   FishDummyMember() // constructor
    {
       cout << "FishDummyMember constructor" << endl;
    }
 
-   ~FishDummyMember()
+   ~FishDummyMember() // destructor
    {
       cout << "FishDummyMember destructor" << endl;
    }
@@ -25,13 +25,12 @@ protected:
    FishDummyMember dummy;
 
 public:
-   // Fish constructor
-   Fish()
+   Fish() // constructor
    {
       cout << "Fish constructor" << endl;
    }
 
-   ~Fish()
+   ~Fish() // destructor
    {
       cout << "Fish destructor" << endl;
    }
@@ -40,12 +39,12 @@ public:
 class TunaDummyMember
 {
 public:
-   TunaDummyMember()
+   TunaDummyMember() // constructor
    {
       cout << "TunaDummyMember constructor" << endl;
    }
 
-   ~TunaDummyMember()
+   ~TunaDummyMember() // destructor
    {
       cout << "TunaDummyMember destructor" << endl;
    }
@@ -57,12 +56,12 @@ private:
    TunaDummyMember dummy;
 
 public:
-   Tuna()
+   Tuna() // constructor
    {
       cout << "Tuna constructor" << endl;
    }
 
-   ~Tuna()
+   ~Tuna() // destructor
    {
       cout << "Tuna destructor" << endl;
    }

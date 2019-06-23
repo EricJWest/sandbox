@@ -1,4 +1,4 @@
-/* Listing 10.2
+/* Listing 10.2: Demonstrating the Use of the 'protected' Keyword
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -34,7 +34,7 @@ class Carp: public Fish
 public:
    Carp()
    {
-      isFreshWaterFish = true;
+      isFreshWaterFish = true; // set protected member in base
    }
 };
 
@@ -53,7 +53,7 @@ int main()
 
    // uncomment line below to see that protected members
    // are not accessible from outside the class heirarchy
-   //myLunch.isFreshWaterFish = false;
+   // myLunch.isFreshWaterFish = false; // compiler error
 
    return 0;
 }

@@ -1,4 +1,4 @@
-/* Listing 6.16
+/* Listing 6.16: Using Nested Loops to Calculate a Fibonacci Series
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

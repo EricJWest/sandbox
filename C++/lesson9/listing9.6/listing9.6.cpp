@@ -1,4 +1,4 @@
-/* Listing 9.6
+/* Listing 9.6: A Default Constructor with Initialization Lists
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

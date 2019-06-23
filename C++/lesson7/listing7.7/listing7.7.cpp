@@ -1,4 +1,4 @@
-/* Listing 7.7
+/* Listing 7.7: An Overloaded Function
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 6.1
+/* Listing 6.1: Multiplying or Adding Two Integers on the Basis of User Input
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

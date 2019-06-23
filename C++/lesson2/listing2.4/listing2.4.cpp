@@ -1,4 +1,4 @@
-/* Listing 2.4
+/* Listing 2.4: Declaring., Defining, and Calling a Function The Demonstrates Capabilities of std::cout
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

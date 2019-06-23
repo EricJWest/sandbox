@@ -1,4 +1,4 @@
-/* Listing 8.19
+/* Listing 8.19: Demonstrating the Use of 'const' to Prevent a Function From Modifying a Parameter Sent by Reference
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -8,6 +8,9 @@ using namespace std;
 void GetSquare(const int& number, int& result)
 {
    result = number * number;
+
+   // using the following fails, because a const value cannot be modified
+   //number *= number;
 }
 
 int main()

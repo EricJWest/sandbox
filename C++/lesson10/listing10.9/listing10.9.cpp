@@ -1,4 +1,4 @@
-/* Listing 10.9
+/* Listing 10.9: A Derived Class of a Derived Class with Protected Inheritance
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -35,7 +35,7 @@ public:
    }
 };
 
-class RaceCar: protected Car
+class RaceCar: protected Car // protected inheritance
 {
 public:
    void Move()

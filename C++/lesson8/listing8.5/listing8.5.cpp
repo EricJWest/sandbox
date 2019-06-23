@@ -1,4 +1,4 @@
-/* Listing 8.5
+/* Listing 8.5: Manipulating Data Using a Pointer and the Dereferencing Operator (*)
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -19,8 +19,7 @@ int main()
    cin >> *pointsToAnAge;
 
    // Display the address where age is stored
-   //cout << "Input stored at 0x" << hex << pointsToAnAge << endl;
-   cout << "Input stored at " << pointsToAnAge << endl;
+   cout << "Input stored at " << hex << pointsToAnAge << endl;
 
    cout << "Integer catsAge = " << dec << catsAge << endl;
 

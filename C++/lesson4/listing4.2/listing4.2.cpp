@@ -1,4 +1,4 @@
-/* Listing 4.2
+/* Listing 4.2: Assigning Values to Elements in an Array
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 9.3
+/* Listing 9.3: Using a Constructor to Initialize Class Member Variables
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

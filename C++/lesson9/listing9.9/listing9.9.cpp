@@ -1,4 +1,4 @@
-/* Listing 9.9
+/* Listing 9.9: Ensuring a Deep Copy Using a Copy Constructor
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -21,10 +21,10 @@ public:
          buffer = new char [strlen(initString) + 1];
          strcpy(buffer, initString);
 
-         //cout << "buffer points to: 0x" << hex;
-         cout << "buffer points to: ";
+         cout << "buffer points to: " << hex;
          cout << (unsigned int*)buffer << endl;
       }
+      cout << endl;
    }
 
    MyString(const MyString& copySource) // copy constructor
@@ -39,16 +39,17 @@ public:
          // deep copy from the source into local buffer
          strcpy(buffer, copySource.buffer);
 
-         //cout << "buffer points to: 0x" << hex;
-         cout << "buffer points to: ";
+         cout << "buffer points to: " << hex;
          cout << (unsigned int*)buffer << endl;
       }
+      cout << endl;
    }
 
    ~MyString() // destructor
    {
-      cout << "Invoking destructor, clearing up" << endl;
-      delete[] buffer;
+      cout << "Invoking destructor, cleaning up..." << endl;
+      if (buffer != NULL)
+         delete[] buffer;
    }
 
    int GetLength()

@@ -1,4 +1,4 @@
-/* Listing 8.7
+/* Listing 8.7: Accessing Memory Allocated Using 'new' and Releasing It Using 'delete'
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -15,8 +15,7 @@ int main()
    cin >> *pointsToAnAge;
 
    // use indirection operator * to access value
-   //cout << "Age " << *pointsToAnAge << " is stored at 0x" << hex << pointsToAnAge << endl;
-   cout << "Age " << *pointsToAnAge << " is stored at " << pointsToAnAge << endl;
+   cout << "Age " << *pointsToAnAge << " is stored at " << hex << pointsToAnAge << endl;
 
    delete pointsToAnAge; // release memory
 

@@ -1,4 +1,4 @@
-/* Listing 5.3
+/* Listing 5.3: Demonstrating the Use of Equality and Relational Operators
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

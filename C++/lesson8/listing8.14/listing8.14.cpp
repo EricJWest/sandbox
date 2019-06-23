@@ -1,4 +1,4 @@
-/* Listing 8.14
+/* Listing 8.14: Improved Version of Listing 8.13
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -13,11 +13,11 @@ int main()
 
    // declare pointer and initialized
    bool* const isSunny = new bool;
-   *isSunny = true;
+   *isSunny = false;
 
 
-   if (userInput == 'n')
-      *isSunny = false;
+   if (userInput == 'y')
+      *isSunny = true;
 
    cout << "Boolean flag sunny says: " << *isSunny << endl;
 

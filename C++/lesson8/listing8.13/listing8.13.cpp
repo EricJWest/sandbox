@@ -1,4 +1,4 @@
-/* Listing 8.13
+/* Listing 8.13: Demonstrating Poor Pointer Hygiene
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -9,7 +9,6 @@ int main()
 {
    // uninitialized pointer (bad)
    bool* isSunny; // BAD
-   // bool* isSunny = new bool // BETTER
 
    cout << "Is it sunny (y/n)? ";
    char userInput = 'y';

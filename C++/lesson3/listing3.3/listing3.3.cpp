@@ -1,4 +1,4 @@
-/* Listing 3.3
+/* Listing 3.3: Using Global Variables
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

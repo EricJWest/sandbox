@@ -1,4 +1,4 @@
-/* Listing 9.12
+/* Listing 9.12: Demonstrating the Use of Keyword 'explicit' to Block Unintentional Implict Conversion
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -26,8 +26,8 @@ int main()
    Human anotherKid = Human(11); // explicit, ok
    DoSomething(kid); // ok
 
-   // Human anotherKid2 = 11; // failure: implicit converions not ok
-   // DoSomething(10); // implicit conversion, not ok
+   // Human anotherKid2 = 11; // implicit conversion, not ok (compiler errro)
+   // DoSomething(10); // implicit conversion, not ok (compiler error)
 
    return 0;
 }

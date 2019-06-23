@@ -1,4 +1,4 @@
-/* Listing 6.8
+/* Listing 6.8: Demonstrating the Use of a 'while' Loop
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

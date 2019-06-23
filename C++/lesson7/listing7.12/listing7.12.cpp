@@ -1,4 +1,4 @@
-/* Listing 7.12
+/* Listing 7.12: A First Glimpse at Lambda Functions (New in C++11)
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

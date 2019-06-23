@@ -1,4 +1,4 @@
-/* Listing 6.9
+/* Listing 6.9: Demonstrating the Use of a 'do...while' Loop
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

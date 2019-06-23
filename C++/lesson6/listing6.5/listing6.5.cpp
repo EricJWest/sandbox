@@ -1,4 +1,4 @@
-/* Listing 6.5
+/* Listing 6.5: Tell What Days of the Week Are Named After Using 'switch-case', 'break', and 'default'
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

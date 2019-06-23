@@ -1,4 +1,4 @@
-/* Listing 4.4
+/* Listing 4.4: Creating a Dynamic Array of Integers and Inserting Values Dynamically
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-   vector<int> dynArray (3); // dynamic array of int
+   vector <int> dynArray (3); // dynamic array of int
 
    dynArray[0] = 365;
    dynArray[1] = -421;

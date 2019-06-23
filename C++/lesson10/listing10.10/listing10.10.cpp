@@ -1,4 +1,4 @@
-/* Listing 10.10
+/* Listing 10.10: An Example of a Derived Class with Multiple Inheritance
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -32,7 +32,7 @@ public:
    }
 };
 
-class Platypus: public Mammal, public Reptile, public Bird
+class Platypus: public Mammal, public Reptile, public Bird // multiple inheritance
 {
 public:
    void Swim()

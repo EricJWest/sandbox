@@ -1,4 +1,4 @@
-/* Listing 4.5
+/* Listing 4.5: Analyzing the Null-Terminator in a C-style String
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

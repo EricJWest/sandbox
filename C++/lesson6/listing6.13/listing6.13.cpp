@@ -1,4 +1,4 @@
-/* Listing 6.13
+/* Listing 6.13: Using 'continue' to Restart and 'break' to Exit an Infinite 'for' Loop
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

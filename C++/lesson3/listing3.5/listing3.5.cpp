@@ -1,4 +1,4 @@
-/* Listing 3.5
+/* Listing 3.5: Finding the Size of Standard C++ Variable Types
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 11.4
+/* Listing 11.4: Demonstrating the Use of Virtual Destructors
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -43,7 +43,7 @@ int main()
    cout << "Allocating a Tuna on the free store: " << endl;
    Tuna* pTuna = new Tuna;
    cout << "Deleting the Tuna: " << endl;
-   DeleteFishMemory(pTuna);
+   DeleteFishMemory(pTuna); // OK! both Fish and Tuna are deleted, and in the proper order
 
    cout << "Instantiating a Tuna on the stack: " << endl;
    Tuna myDinner;

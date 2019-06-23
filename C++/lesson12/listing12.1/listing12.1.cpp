@@ -1,4 +1,4 @@
-/* Listing 12.1
+/* Listing 12.1: A Class with Overloaded Prefix Increment (++) and Decrement (--) Operators
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -14,13 +14,13 @@ public:
    Date(int inMonth, int inDay, int inYear)
        : month(inMonth), day(inDay), year(inYear) {};
 
-   Date& operator ++ () // prefix increment
+   Date& operator++ () // prefix increment
    {
       ++day;
       return *this;
    }
 
-   Date& operator -- () // prefix decrement
+   Date& operator-- () // prefix decrement
    {
       --day;
       return *this;

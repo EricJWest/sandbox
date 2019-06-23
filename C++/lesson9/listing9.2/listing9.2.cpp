@@ -1,4 +1,4 @@
-/* Listing 9.2
+/* Listing 9.2: Demonstrating Abstraction of Data via the Keyword 'private'
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

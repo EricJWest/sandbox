@@ -1,4 +1,4 @@
-/* Listing 5.8
+/* Listing 5.8: Demonstrating the Use of Bitwise Right Shift (>>) and Bitwise Left Shift (<<) Operators
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 5.4
+/* Listing 5.4: Demonstrating the Use of Logical AND (&&) and Logical OR (||) Operators
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-   cout << "Enter true(1) or false(0) for two operands: " << endl;
+   cout << "Enter true (1) or false (0) for two operands: " << endl;
    bool op1 = false, op2 = false;
    cin >> op1;
    cin >> op2;

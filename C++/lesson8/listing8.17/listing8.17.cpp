@@ -1,4 +1,4 @@
-/* Listing 8.17
+/* Listing 8.17: Demonstrating the Use of References
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -9,12 +9,10 @@ int main()
 {
    int original = 30;
    cout << "original = " << original << endl;
-   //cout << "original is at address: " << hex < &original << endl;
-   cout << "original is at address: " << &original << endl;
+   cout << "original is at address: " << hex << &original << endl;
 
    int& ref1 = original;
-   //cout << "ref1 is at address: " << hex < &ref1 << endl;
-   cout << "ref1 is at address: " << &ref1 << endl;
+   cout << "ref1 is at address: " << hex << &ref1 << endl;
 
    int& ref2 = ref1;
    cout << "ref2 is at address: " << hex << &ref2 << endl;

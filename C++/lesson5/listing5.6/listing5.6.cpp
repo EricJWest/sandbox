@@ -1,4 +1,4 @@
-/* Listing 5.6
+/* Listing 5.6: Using Logical NOT (!) and Logical OR (||) Operators in 'if' Satements for Conditional Processing
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

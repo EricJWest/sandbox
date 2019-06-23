@@ -1,4 +1,4 @@
-/* Listing 3.4
+/* Listing 3.4: Demonstrating the Ill-Effects of Singed and Unsigned Integer Overflow Errors
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

@@ -1,4 +1,4 @@
-/* Listing 4.7
+/* Listing 4.7: Using 'std::string' to Initialize, Store User Input, Copy, Concatenate, and Determine the Length of a String
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

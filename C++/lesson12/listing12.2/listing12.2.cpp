@@ -1,4 +1,4 @@
-/* Listing 12.2
+/* Listing 12.2: Implementing Conversion Operator 'const char*'
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

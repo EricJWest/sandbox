@@ -1,4 +1,4 @@
-/* Listing 6.12
+/* Listing 6.12: Demonstrating the Use of a Range-Based 'for' Loop
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

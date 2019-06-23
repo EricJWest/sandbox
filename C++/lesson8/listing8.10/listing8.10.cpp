@@ -1,13 +1,13 @@
-/* Listing 8.10
+/* Listing 8.10: Demonstrating the Use of 'const' to Pass Pointers to a Function
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
 #include <iostream>
 using namespace std;
 
-void CalcArea(const double* const ptrPi, // const pointer to const data
-              const double* const ptrRadius, // i.e., no changes allowed
-              double* const ptrArea) // may change data pointed to
+void CalcArea(const double* const ptrPi, // const pointer to const data (i.e., no changes allowed)
+              const double* const ptrRadius, // const pointer to const data (i.e., no changes allowed)
+              double* const ptrArea) // const pointer to variable data (i.e., may change data pointed to, but not address)
 {
    // check pointers for validity before using!
    if (ptrPi && ptrRadius && ptrArea)

@@ -1,4 +1,4 @@
-/* Listing 6.15
+/* Listing 6.15: Using Nested Loops to Iterate Elements in a 2D Array (cf. Listing 4.3)
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

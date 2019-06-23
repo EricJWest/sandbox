@@ -1,4 +1,4 @@
-/* Listing 8.16
+/* Listing 8.16:
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -13,6 +13,8 @@ int main()
    if (pointsToManyNums) // check pointsToManyNums != NULL
    {
       // Use the allocated memory
+
+      // Release allocated memory
       delete[] pointsToManyNums;
    }
    else

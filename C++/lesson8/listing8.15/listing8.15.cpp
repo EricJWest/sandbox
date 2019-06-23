@@ -1,4 +1,4 @@
-/* Listing 8.15
+/* Listing 8.15: Demonstrating Graceful Exit When 'new' Throws an Exception
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -15,6 +15,7 @@ int main()
 
       // Use the allocated memory
 
+      // Release allocated memory
       delete[] pointsToManyNums;
    }
    catch (bad_alloc)

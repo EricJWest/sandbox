@@ -1,4 +1,4 @@
-/* Listing 10.4
+/* Listing 10.4: Example of a Derived Class Overriding a Method in a Base Class
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
@@ -28,7 +28,7 @@ class Tuna: public Fish
 public:
    Tuna(): Fish(false){} // constructor initializes base
 
-   void Swim()
+   void Swim() // overrding Swim() in class Fish
    {
       cout << "Tuna swims real fast" << endl;
    }
@@ -37,9 +37,9 @@ public:
 class Carp: public Fish
 {
 public:
-   Carp(): Fish(true){}
+   Carp(): Fish(true){} // constructor initializes base
 
-   void Swim()
+   void Swim() // overrding Swim() in class Fish
    {
       cout << "Carp swims real slow" << endl;
    }

@@ -1,4 +1,4 @@
-/* Listing 3.6
+/* Listing 3.6: Using the 'auto' Keyword and Relying on the Compiler's Type-Inference Capabilities
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 

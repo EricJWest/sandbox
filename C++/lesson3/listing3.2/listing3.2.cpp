@@ -1,4 +1,4 @@
-/* Listing 3.2
+/* Listing 3.2: Demonstrating the Scope of Variables
    Teach Yourself C++ in One Hour a Day (8th edition)
    by Siddhartha Rao */
 
